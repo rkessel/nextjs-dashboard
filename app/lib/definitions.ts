@@ -86,3 +86,10 @@ export type InvoiceForm = {
   amount: number;
   status: 'pending' | 'paid';
 };
+
+export type InfoCard = {
+  totalPaidInvoices: string;
+  totalPendingInvoices: string;
+  numberOfInvoices: string;
+  numberOfCustomers: string;
+};
